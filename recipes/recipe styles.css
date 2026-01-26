@@ -1,0 +1,98 @@
+    /* Reset some default browser spacing */
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #381515;
+        color: #111;
+    }
+
+    /* Navbar container */
+    .topnav {
+        background-color: #000;
+        padding: 0 20px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    /* Navbar links */
+    .topnav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 16px;
+        font-weight: 500;
+
+        transition: opacity 0.2s ease;
+    }
+
+    /* Hover effect */
+    .topnav a:hover {
+        opacity: 0.7;
+    }
+
+    /* Active link */
+    .topnav a.active {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 4px;
+    }
+
+    /* Optional: page container spacing */
+    .container {
+        padding: 20px;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .content img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    }
+
+
+   .instructions {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.instructions h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Grid container */
+.instructions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual step card */
+.step {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* Step number styling */
+.step-number {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
